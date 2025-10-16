@@ -3,7 +3,8 @@ import numpy as np
 import torch
 import PIL
 from PIL import Image
-from skimage.measure import compare_psnr
+# from skimage.measure import compare_psnr
+from skimage.metrics import peak_signal_noise_ratio as compare_psnr
 from utils.data import Data
 
 
